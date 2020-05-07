@@ -17,11 +17,15 @@ public class Ex08 {
 		if(num01<num02 && num01<num03) {
 			System.out.println("가장 작은수는 " + num01 + " 입니다.");
 		}
+		
 		else if(num02<num01 && num02<num03) {
 			System.out.println("가장 작은수는 " + num02 + " 입니다.");
 		}
+		
 		else {
 			System.out.println("가장 작은수는 " + num03 + " 입니다.");
 		}
+		
+		sc.close();
 	}
 }

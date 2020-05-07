@@ -5,11 +5,13 @@ public class Ex10 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("사번(정수)를 입력해주세요.");
 		System.out.print("사번: ");
-		
 		int num01=sc.nextInt();
+		
 		int count = num01%3;
+		
 		
 		switch(count){
 			case 0:System.out.println("A팀입니다.");
@@ -25,6 +27,7 @@ public class Ex10 {
 			break;
 		}
 		
+		sc.close();
 	}
 
 }

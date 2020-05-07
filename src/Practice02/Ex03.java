@@ -4,12 +4,11 @@ public class Ex03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int age;
-		
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("나이를 입력해주세요.");
 		System.out.print("나이: ");
-		age = sc.nextInt();
+		int age = sc.nextInt();
 		
 		if(age>20) {
 			System.out.println("\"1번그룹\"");

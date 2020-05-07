@@ -14,14 +14,13 @@ public class Ex04 {
 		if(age>=19 && age<65) {
 			System.out.println("1번그룹 입니다.");
 		}
+		
 		else {
 			System.out.println("2번그릅 입니다.");
 		}
 		
-		
 		sc.close();
-		
-		//15,19,20는 2번그룹 21,100번 1번그룹
+
 	}
 
 }

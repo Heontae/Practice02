@@ -5,6 +5,7 @@ public class Ex11 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("알파벳 1글자(소문자)를 입력하세요.");
 		System.out.print("알파벳: ");
 		char eng = sc.next().charAt(0);
@@ -21,6 +22,8 @@ public class Ex11 {
 			default :
 				System.out.println("자음입니다.");
 		}
+	
+		sc.close();
 	}
 
 }

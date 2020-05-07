@@ -12,12 +12,14 @@ public class Ex13 {
 		
 		if(num<=0) {
 			double x = (num*num*num)-9*num+2;
-			System.out.println("계산결과는 " +x +" 입니다.");
+			System.out.println("계산결과는 " + x +" 입니다.");
 		}
-		if(num>0) {
+		else if(num>0) {
 			double x = (7*num)+2;
-			System.out.println("계산결과는 " +x +" 입니다.");
+			System.out.println("계산결과는 " + x +" 입니다.");
 		}
+		
+		sc.close();
 	}
 
 }
